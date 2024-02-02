@@ -1,0 +1,51 @@
+.chosenEpisodes {
+  width: 100%;
+  text-align: center;
+  padding: 20vh;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+
+.chosenEpisodes h4 {
+  margin-bottom: 5rem;
+}
+
+.episodes {
+  display: flex;
+  gap: 5em;
+}
+
+.cardContent {
+  display: flex;
+  flex-direction: column;
+  direction: rtl;
+  text-align: right;
+  padding: 1rem;
+  font-family: inherit;
+  height: 15rem;
+    justify-content: space-between;
+}
+
+.end {
+  display: flex;
+  align-items: center;
+  font-weight: bolder;
+  justify-content: space-between;
+}
+
+.end svg {
+  font-size: 2rem;
+}
+
+.cardTitle {
+  font-weight: bolder;
+}
+
+.cardDescription {
+  font-size: .75rem;
+  max-height: 4.3rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

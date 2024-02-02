@@ -1,0 +1,9 @@
+.profileDescription {
+  background-color: white;
+  display: flex;
+  color: #163E58;
+  align-items: center;
+  direction: rtl;
+  padding: 10rem 20rem;
+  gap: 7.5rem;
+}

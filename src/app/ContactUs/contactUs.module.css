@@ -1,0 +1,55 @@
+.cards {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+  gap: 2rem;
+  align-items: center;
+  background-color: white;
+  padding: 0 20%;
+}
+
+.card, .reverseCard {
+  direction: rtl;
+  padding: 3rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  height: 30rem;
+  border-radius: 16px;
+}
+
+.card {
+  border: 3px solid #163E58;
+  color: #163E58;
+}
+
+.reverseCard {
+  background-color: #163E58;
+  color: white;
+}
+
+.card button, .reverseCard button {
+  padding: .4em 1.3em;
+  border-radius: 24px;
+  border: none;
+  color: white;
+  background-color: #163E58;
+  font-family: inherit;
+  font-weight: 400;
+  font-size: .95rem;
+  cursor: pointer;
+  align-self: center;
+  margin-top: auto;
+}
+
+.card button {
+
+}
+
+.reverseCard button {
+  background-color: white;
+  color: #163E58;
+  font-weight: bold;
+}
